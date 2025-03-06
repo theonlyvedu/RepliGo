@@ -1,5 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAeadwx8xEEJhuV7B1Dwbzgg8iGaS3wp.T4",
+    apiKey: "AIzaSyAeadwx8xEEJhuV7B1Dwbzgg8iGaS3wpjiUIgGbJHfuyFT4",
     authDomain: "repligo-vedant.firebaseapp.com",
     projectId: "repligo-vedant",
     storageBucket: "repligo-vedant.firebasestorage.app",
