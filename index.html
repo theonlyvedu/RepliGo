@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RepliGo - Time Capsule Messenger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RepliGo</h1>
+        <p>Write a message to your future self or loved ones.</p>
+        <textarea id="message" placeholder="Write your message here..."></textarea>
+        <input type="date" id="scheduleDate">
+        <button id="sendButton">Send to Future</button>
+        <p id="status"></p>
+    </div>
+    <script src="firebase-config.js"></script>
+    <script src="script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+</body>
+</html>
